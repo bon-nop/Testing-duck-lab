@@ -1,0 +1,73 @@
+/* Layout */
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.navbar {
+  font-family: 'TH Sarabun New-Bold';
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.question-1.container {
+  background-color: #f1f1f1;
+}
+
+.question-1 .form-label, h3 {
+  font-family: 'TH Sarabun New-Bold';
+}
+
+.question-1 table th {
+  font-family: 'TH Sarabun New-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.question-1 table th[title~="name-title"], th[title~="birthday"], th[title~="gender"] {
+  min-width: 6.3rem;
+}
+
+.question-1 table th[title~="first-name"], th[title~="last-name"] {
+  min-width: 8rem;
+}
+
+.question-1  table th[title~="about-yourself"] {
+  min-width: 16rem;
+} 
+
+.question-1 table th[title~="action"] {
+  min-width: 12rem;
+}
+
+.question-1 table td[title~="name-title"], td[title~="gender"] {
+  text-transform: capitalize;
+}
+
+.modal-body .form-label {
+  font-family: 'TH Sarabun New-Bold';
+}
+/* End layout */
+
+/* Button */
+.question-1 .btn-dark, .modal-footer .btn-dark {
+  font-family: 'TH Sarabun New-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.question-1 .btn-outline-dark, .modal-footer .btn-outline-dark {
+  font-family: 'TH Sarabun New-Bold';
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.modal-body .form-check-input:checked {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.modal-body .form-select, .form-check-label  {
+  text-transform: capitalize;
+}
+/* End button */
